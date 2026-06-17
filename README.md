@@ -40,12 +40,19 @@
 🛠️ Technologies Used
   
   ⌨️ Python – Core programming language
+  
   🌐 Flask – Web framework for the backend
+  
   🔢 NumPy – Numerical operations and pixel manipulation
+  
   🖼️ Pillow (PIL) – Image loading and saving
+  
   📉 Matplotlib – Histogram generation
+  
   📐 SciPy – Chi-square statistical analysis
+  
   🔐 Cryptography (Fernet) – Key file encryption
+  
   🗄️ MySQL – Database for storing encryption records
   
 📌 Use Case Scenarios
