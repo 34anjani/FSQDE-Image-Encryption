@@ -9,8 +9,8 @@
   
   🧮 Multi-Layer Encryption Pipeline
   
-    Applies three sequential encryption stages: Fractal shuffling, Swarm noise
-    addition, and Quantum XOR diffusion for robust image protection.
+      Applies three sequential encryption stages: Fractal shuffling, Swarm noise
+      addition, and Quantum XOR diffusion for robust image protection.
   
   🔒 Password-Protected Key Management
   
@@ -57,11 +57,8 @@
 📌 Use Case Scenarios
   
   🏥 Medical Image Protection
-  
   🔬 Research Data Confidentiality
-  
   🖼️ Secure Image Transmission
-  
   🎓 Academic Cryptography Demonstration
   
 🚀 How to Run
