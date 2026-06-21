@@ -41,17 +41,17 @@
 - 🎓 Academic Cryptography Demonstration
   
 # 🚀 How to Run
-- Prerequisites
+- **Prerequisites**
     - Python 3.x
     - MySQL installed and running
-- Setup & Run
+- **Setup & Run**
     1. Clone the repository
-      git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
-      cd FSQDE-Image-Encryption
+      - git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
+      - cd FSQDE-Image-Encryption
     2. Install dependencies
-      pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
+      - pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
     3. Set up the database
-      mysql -u root -p < setup_db.sql
+      - mysql -u root -p < setup_db.sql
     4. Run the application
       python app.py
     5. Open http://127.0.0.1:5000 in your browser.
