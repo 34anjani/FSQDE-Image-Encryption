@@ -1,11 +1,8 @@
-# 🔐 FSQDE – Fractal Swarm Quantum Diffusion Image Encryption
+# 🔐 FSQDE – Fractal Swarm Based Quantum Diffusion Image Encryption Algorithm
 
-  ## 📌 Overview
-  
-  FSQDE is a Flask-based image encryption system that applies a multi-layered
-  encryption algorithm combining Fractal permutation, Swarm noise injection, and
-  Quantum Diffusion techniques. It provides comprehensive security metrics analysis
-  to evaluate encryption strength.
+## 📌 Overview
+
+**FSQDE** is a Flask-based web application that encrypts and decrypts images using a multi-layered algorithm combining three sequential techniques: Fractal permutation using a logistic map for pixel shuffling, Swarm noise injection for adding controlled randomness and Quantum XOR diffusion for bit-level scrambling with neighboring pixels. Users upload an image through the browser and select encryption strength (Light, Balanced, or Extreme) after which the system produces an encrypted PNG file and a password-protected key file that must both be downloaded by the user. To decrypt, the user uploads the encrypted PNG along with the key file and enters the password which reverses all three encryption stages (Quantum, Swarm, Fractal) to recover the original image. After encryption, the app computes and displays security metrics including Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square and APCC (Horizontal, Vertical, Diagonal) along with histogram comparisons of original vs encrypted images to verify randomness. All encryption records are stored in a MySQL database and can be viewed through the records endpoint providing a complete history of operations.
 
 ---
   
@@ -37,11 +34,11 @@
 ---
 
 
-# 📌 Use Case Scenarios
-- 🏥 Medical Image Protection
-- 🔬 Research Data Confidentiality
-- 🖼️ Secure Image Transmission
-- 🎓 Academic Cryptography Demonstration
+ ## 📌 Use Case Scenarios
+  - 🏥 **Medical Image Protection** – Encrypt sensitive patient scans and reports before sharing across hospital networks.
+  - 🔬 **Research Data Confidentiality** – Secure proprietary research images and datasets from unauthorized access.
+  - 🖼️ **Secure Image Transmission** – Safely transmit confidential images over untrusted channels using encryption keys.
+  - 🎓 **Academic Cryptography Demonstration** – Understand and demonstrate chaos-based encryption techniques in academic projects.
 
 ---
 
