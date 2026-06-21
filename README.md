@@ -1,9 +1,13 @@
 # 🔐 FSQDE – Fractal Swarm Quantum Diffusion Image Encryption
+
+  ## 📌 Overview
   
   FSQDE is a Flask-based image encryption system that applies a multi-layered
   encryption algorithm combining Fractal permutation, Swarm noise injection, and
   Quantum Diffusion techniques. It provides comprehensive security metrics analysis
   to evaluate encryption strength.
+
+---
   
 # 🔑 Key Features
 **🧮 Multi-Layer Encryption Pipeline**
@@ -23,7 +27,9 @@
   
 **🔓 Full Decryption Support**
 - Reverse the entire encryption pipeline using the encrypted image and key file to recover the original image.
-  
+
+---
+
 # 🛠️ Technologies Used
 - **⌨️ Python** – Core programming language
 - **🌐 Flask** – Web framework for the backend
@@ -33,13 +39,17 @@
 - **📐 SciPy** – Chi-square statistical analysis 
 - **🔐 Cryptography (Fernet)** – Key file encryption
 - **🗄️ MySQL** – Database for storing encryption records
-    
+
+---
+
+
 # 📌 Use Case Scenarios
 - 🏥 Medical Image Protection
 - 🔬 Research Data Confidentiality
 - 🖼️ Secure Image Transmission
 - 🎓 Academic Cryptography Demonstration
 
+---
 
 # 🚀 How to Run
 - **Prerequisites**
