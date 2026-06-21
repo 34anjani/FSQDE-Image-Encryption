@@ -13,18 +13,15 @@
   
   🔒 Password-Protected Key Management
   
-    Encryption keys are secured using PBKDF2 + Fernet symmetric encryption, ensuring
-    only the correct password can decrypt.
+    Encryption keys are secured using PBKDF2 + Fernet symmetric encryption, ensuring only the correct password can decrypt.
     
   📊 Security Metrics Dashboard
   
-    Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC
-    (Horizontal, Vertical, Diagonal) after every encryption.
+    Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC(Horizontal, Vertical, Diagonal) after every encryption.
     
   📈 Histogram Visualization
   
-    Generates and compares pixel intensity histograms of original vs encrypted images
-    for visual verification of randomness.
+    Generates and compares pixel intensity histograms of original vs encrypted images for visual verification of randomness.
     
   ⚡ Configurable Encryption Strength
   
@@ -32,8 +29,7 @@
   
   🔓 Full Decryption Support
   
-    Reverse the entire encryption pipeline using the encrypted image and key file to
-    recover the original image.
+    Reverse the entire encryption pipeline using the encrypted image and key file to recover the original image.
   
 🛠️ Technologies Used
   
@@ -63,12 +59,12 @@
   Setup & Run
   
   # 1. Clone the repository
-  git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
-  cd FSQDE-Image-Encryption
+    git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
+    cd FSQDE-Image-Encryption
   
   # 2. Install dependencies
-  pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
-  
+    pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
+    
   # 3. Set up the database
   mysql -u root -p < setup_db.sql
   
