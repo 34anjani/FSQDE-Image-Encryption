@@ -17,7 +17,7 @@
     
   📊 Security Metrics Dashboard
   
-    Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC(Horizontal, Vertical, Diagonal) after every encryption.
+    Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC (Horizontal, Vertical, Diagonal) after every encryption.
     
   📈 Histogram Visualization
   
