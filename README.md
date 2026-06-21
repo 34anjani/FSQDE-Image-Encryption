@@ -9,8 +9,8 @@
   
   🧮 Multi-Layer Encryption Pipeline
   
-  Applies three sequential encryption stages : Fractal shuffling, Swarm noise
-  addition, and Quantum XOR diffusion for robust image protection.
+    Applies three sequential encryption stages: Fractal shuffling, Swarm noise
+    addition, and Quantum XOR diffusion for robust image protection.
   
   🔒 Password-Protected Key Management
   
@@ -29,8 +29,7 @@
     
   ⚡ Configurable Encryption Strength
   
-    Three security modes — Light, Balanced, and Extreme modes that allows users
-    to control the noise intensity.
+    Three security modes: Light, Balanced, and Extreme, allowing users to control the noise intensity.
   
   🔓 Full Decryption Support
   
@@ -58,8 +57,11 @@
 📌 Use Case Scenarios
   
   🏥 Medical Image Protection
+  
   🔬 Research Data Confidentiality
+  
   🖼️ Secure Image Transmission
+  
   🎓 Academic Cryptography Demonstration
   
 🚀 How to Run
@@ -86,7 +88,7 @@
   
   Access
   
-  Open http://127.0.0.1:5000 (http://127.0.0.1:5000) in your browser.
+  Open http://127.0.0.1:5000 in your browser.
   
   - / – Upload and encrypt an image
   - /decrypt – Decrypt using encrypted image + key file
