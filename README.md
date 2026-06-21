@@ -39,36 +39,6 @@
 - 🔬 Research Data Confidentiality
 - 🖼️ Secure Image Transmission
 - 🎓 Academic Cryptography Demonstration
-  
-# 🚀 How to Run
-- **Prerequisites**
-    - Python 3.x
-    - MySQL needs to be installed and running.
-- **Setup & Run**
-  
-  1. Clone the repository
-     ```bash
-      git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
-      cd FSQDE-Image-Encryption
-     ```
-  2. Install dependencies
-      ```bash
-       pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
-      ```
-  4. Set up the database
-     ```bash
-       mysql -u root -p < setup_db.sql
-     ```
-  6. Run the application
-     ```bash
-     python app.py
-     ```
-  8. Open http://127.0.0.1:5000 in your browser.
-     ```bash
-           Upload and encrypt an image
-           `/decrypt` – Decrypt using encrypted image + key file
-           `/records` – View all encryption history from database
-     ```
 
 
 # 🚀 How to Run
@@ -77,24 +47,24 @@
     - MySQL needs to be installed and running.
 - **Setup & Run**
 
-  1. Clone the repository
+1. Clone the repository
      ```bash
      git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
      cd FSQDE-Image-Encryption
      ```
-  2. Install dependencies
+2. Install dependencies
      ```bash
      pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
      ```
-  3. Set up the database
+3. Set up the database
      ```bash
      mysql -u root -p < setup_db.sql
      ```
-  4. Run the application
+4. Run the application
      ```bash
      python app.py
      ```
-  5. Open http://127.0.0.1:5000 in your browser.
+5. Open http://127.0.0.1:5000 in your browser.
      - Upload and encrypt an image
      - `/decrypt` – Decrypt using encrypted image + key file
      - `/records` – View all encryption history from database
