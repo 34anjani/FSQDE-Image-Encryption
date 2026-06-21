@@ -14,19 +14,25 @@
   
 **📊 Security Metrics Dashboard**
 - Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC (Horizontal, Vertical, Diagonal) after every encryption.
-**📈 Histogram Visualization** : Generates and compares pixel intensity histograms of original vs encrypted images for visual verification of randomness.
-**⚡ Configurable Encryption Strength** : Three security modes: Light, Balanced, and Extreme, allowing users to control the noise intensity.
-**🔓 Full Decryption Support** : Reverse the entire encryption pipeline using the encrypted image and key file to recover the original image.
+
+**📈 Histogram Visualization**
+- Generates and compares pixel intensity histograms of original vs encrypted images for visual verification of randomness.
+
+**⚡ Configurable Encryption Strength**
+- Three security modes: Light, Balanced, and Extreme, allowing users to control the noise intensity.
+  
+**🔓 Full Decryption Support**
+- Reverse the entire encryption pipeline using the encrypted image and key file to recover the original image.
   
 # 🛠️ Technologies Used
-- ⌨️ Python – Core programming language
-- 🌐 Flask – Web framework for the backend
-- 🔢 NumPy – Numerical operations and pixel manipulation
-- 🖼️ Pillow (PIL) – Image loading and saving
-- 📉 Matplotlib – Histogram generation 
-- 📐 SciPy – Chi-square statistical analysis 
-- 🔐 Cryptography (Fernet) – Key file encryption
-- 🗄️ MySQL – Database for storing encryption records
+- **⌨️ Python** – Core programming language
+- **🌐 Flask** – Web framework for the backend
+- **🔢 NumPy** – Numerical operations and pixel manipulation
+- **🖼️ Pillow (PIL)** – Image loading and saving
+- **📉 Matplotlib** – Histogram generation 
+- **📐 SciPy** – Chi-square statistical analysis 
+- **🔐 Cryptography (Fernet)** – Key file encryption
+- **🗄️ MySQL** – Database for storing encryption records
     
 # 📌 Use Case Scenarios
 - 🏥 Medical Image Protection
