@@ -6,17 +6,11 @@
   to evaluate encryption strength.
   
 **🔑 Key Features**
-  
     - 🧮 Multi-Layer Encryption Pipeline : Applies three sequential encryption stages: Fractal shuffling, Swarm noise addition, and Quantum XOR diffusion for robust image protection.
-    
     - 🔒 Password-Protected Key Management : Encryption keys are secured using PBKDF2 + Fernet symmetric encryption, ensuring only the correct password can decrypt.
-      
     - 📊 Security Metrics Dashboard : Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC (Horizontal, Vertical, Diagonal) after every encryption.
-      
     📈 Histogram Visualization : Generates and compares pixel intensity histograms of original vs encrypted images for visual verification of randomness.
-      
     ⚡ Configurable Encryption Strength : Three security modes: Light, Balanced, and Extreme, allowing users to control the noise intensity.
-    
     🔓 Full Decryption Support : Reverse the entire encryption pipeline using the encrypted image and key file to recover the original image.
   
 **🛠️ Technologies Used**
