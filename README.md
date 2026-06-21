@@ -31,7 +31,7 @@
   
     Reverse the entire encryption pipeline using the encrypted image and key file to recover the original image.
   
-🛠️ Technologies Used
+# 🛠️ Technologies Used
   
     ⌨️ Python – Core programming language
     🌐 Flask – Web framework for the backend
@@ -42,34 +42,32 @@
     🔐 Cryptography (Fernet) – Key file encryption
     🗄️ MySQL – Database for storing encryption records
     
-📌 Use Case Scenarios
+# 📌 Use Case Scenarios
   
     🏥 Medical Image Protection
     🔬 Research Data Confidentiality
     🖼️ Secure Image Transmission
     🎓 Academic Cryptography Demonstration
   
-🚀 How to Run
+# 🚀 How to Run
   
   Prerequisites
-  
-  - Python 3.x
-  - MySQL installed and running
+    - Python 3.x
+    - MySQL installed and running
   
   Setup & Run
-  
-  # 1. Clone the repository
-    git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
-    cd FSQDE-Image-Encryption
-  
-  # 2. Install dependencies
-    pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
+    1. Clone the repository
+      git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
+      cd FSQDE-Image-Encryption
     
-  # 3. Set up the database
-  mysql -u root -p < setup_db.sql
-  
-  # 4. Run the application
-  python app.py
+    2. Install dependencies
+      pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
+      
+    3. Set up the database
+      mysql -u root -p < setup_db.sql
+    
+    4. Run the application
+      python app.py
   
   Access
   
