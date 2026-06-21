@@ -7,7 +7,7 @@
   
 # 🔑 Key Features
   
-    ** 🧮 Multi-Layer Encryption Pipeline ** : Applies three sequential encryption stages: Fractal shuffling, Swarm noise            addition, and Quantum XOR diffusion for robust image protection.
+    # 🧮 Multi-Layer Encryption Pipeline : Applies three sequential encryption stages: Fractal shuffling, Swarm noise             addition, and Quantum XOR diffusion for robust image protection.
     
     **🔒 Password-Protected Key Management** : Encryption keys are secured using PBKDF2 + Fernet symmetric encryption, ensuring         only the correct password can decrypt.
       
