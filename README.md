@@ -49,12 +49,12 @@
         - git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
         - cd FSQDE-Image-Encryption
     2. Install dependencies
-      - pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
+        - pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
     3. Set up the database
-      - mysql -u root -p < setup_db.sql
+        - mysql -u root -p < setup_db.sql
     4. Run the application
-      python app.py
+        - python app.py
     5. Open http://127.0.0.1:5000 in your browser.
-      - / – Upload and encrypt an image
-      - /decrypt – Decrypt using encrypted image + key file
-      - /records – View all encryption history from database
+        – Upload and encrypt an image
+        - /decrypt – Decrypt using encrypted image + key file
+        - /records – View all encryption history from database
