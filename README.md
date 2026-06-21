@@ -6,7 +6,7 @@
 
 ---
   
-# 🔑 Key Features
+## 🔑 Key Features
 **🧮 Multi-Layer Encryption Pipeline** - Applies three sequential encryption stages: Fractal shuffling, Swarm noise addition, and Quantum XOR diffusion for robust image protection.
 
 **🔒 Password-Protected Key Management** - Encryption keys are secured using PBKDF2 + Fernet symmetric encryption, ensuring only the correct password can decrypt.
@@ -21,7 +21,7 @@
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - **⌨️ Python** – Core programming language
 - **🌐 Flask** – Web framework for the backend
 - **🔢 NumPy** – Numerical operations and pixel manipulation
@@ -34,7 +34,7 @@
 ---
 
 
- ## 📌 Use Case Scenarios
+## 📌 Use Case Scenarios
   - 🏥 **Medical Image Protection** – Encrypt sensitive patient scans and reports before sharing across hospital networks.
   - 🔬 **Research Data Confidentiality** – Secure proprietary research images and datasets from unauthorized access.
   - 🖼️ **Secure Image Transmission** – Safely transmit confidential images over untrusted channels using encryption keys.
@@ -42,7 +42,7 @@
 
 ---
 
-# 🚀 How to Run
+## 🚀 How to Run
 - **Prerequisites**
     - Python 3.x
     - MySQL needs to be installed and running.
