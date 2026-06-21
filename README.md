@@ -43,12 +43,12 @@
 # 🚀 How to Run
 - **Prerequisites**
     - Python 3.x
-    - MySQL installed and running
+    - MySQL need to be installed and running.
 - **Setup & Run**
   
       1. Clone the repository
-          - git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
-          - cd FSQDE-Image-Encryption
+            - git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
+            - cd FSQDE-Image-Encryption
       2. Install dependencies
           - pip install flask numpy pillow matplotlib scipy cryptography mysql-connector-python
       3. Set up the database
