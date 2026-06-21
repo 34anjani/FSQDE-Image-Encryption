@@ -5,7 +5,7 @@
   Quantum Diffusion techniques. It provides comprehensive security metrics analysis
   to evaluate encryption strength.
   
-# 🔑 Key Features
+**🔑 Key Features**
   
     # 🧮 Multi-Layer Encryption Pipeline : Applies three sequential encryption stages: Fractal shuffling, Swarm noise             addition, and Quantum XOR diffusion for robust image protection.
     
