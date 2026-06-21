@@ -68,11 +68,8 @@
     
     4. Run the application
       python app.py
-  
-  Access
-  
-  Open http://127.0.0.1:5000 in your browser.
-  
-  - / – Upload and encrypt an image
-  - /decrypt – Decrypt using encrypted image + key file
-  - /records – View all encryption history from database
+
+    5. Open http://127.0.0.1:5000 in your browser.
+      - / – Upload and encrypt an image
+      - /decrypt – Decrypt using encrypted image + key file
+      - /records – View all encryption history from database
