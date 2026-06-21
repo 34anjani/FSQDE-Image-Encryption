@@ -6,7 +6,7 @@
   to evaluate encryption strength.
   
 **🔑 Key Features**
-    - 🧮 Multi-Layer Encryption Pipeline : Applies three sequential encryption stages: Fractal shuffling, Swarm noise addition, and Quantum XOR diffusion for robust image protection.
+    -🧮 Multi-Layer Encryption Pipeline : Applies three sequential encryption stages: Fractal shuffling, Swarm noise addition, and Quantum XOR diffusion for robust image protection.
     - 🔒 Password-Protected Key Management : Encryption keys are secured using PBKDF2 + Fernet symmetric encryption, ensuring only the correct password can decrypt.
     - 📊 Security Metrics Dashboard : Computes and displays Entropy, NPCR, UACI, PSNR, Correlation, Chi-Square, and APCC (Horizontal, Vertical, Diagonal) after every encryption.
     📈 Histogram Visualization : Generates and compares pixel intensity histograms of original vs encrypted images for visual verification of randomness.
