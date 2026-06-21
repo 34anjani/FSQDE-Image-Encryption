@@ -56,6 +56,7 @@
     - MySQL installed and running
   
   Setup & Run
+  
     1. Clone the repository
       git clone https://github.com/34anjani/FSQDE-Image-Encryption.git
       cd FSQDE-Image-Encryption
