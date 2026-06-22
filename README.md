@@ -34,7 +34,7 @@
 ---
 
 
-## 📌 Use Case Scenarios
+## 📈 Potential Use Cases
   - 🏥 **Medical Image Protection** – Encrypt sensitive patient scans and reports before sharing across hospital networks.
   - 🔬 **Research Data Confidentiality** – Secure proprietary research images and datasets from unauthorized access.
   - 🖼️ **Secure Image Transmission** – Safely transmit confidential images over untrusted channels using encryption keys.
